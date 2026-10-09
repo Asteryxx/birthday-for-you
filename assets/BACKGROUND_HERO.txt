@@ -1,0 +1,2 @@
+Taruh gambar background untuk halaman pertama di folder ini dengan nama hero-background.jpg.
+Disarankan landscape 1920x1080. Edit style.css jika ingin memakai nama file berbeda.

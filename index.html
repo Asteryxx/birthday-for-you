@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8eee9">
+  <title>For You, My Favorite Person ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">a little something <span>♡</span></a>
+    <button class="music-toggle" id="musicToggle" aria-label="Putar musik latar">
+      <span class="music-dot"></span><span id="musicLabel">Play our song</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- Ganti assets/hero-background.jpg dengan foto pilihanmu. -->
+    <section class="hero section" id="home">
+      <div class="hero-layout">
+        <div class="hero-photo reveal">
+          <img src="assets/hero-background.jpg" alt="Foto spesial untukmu" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="hero-photo-placeholder"><span>♡</span><small>Letakkan foto favorit kalian di sini</small><code>assets/hero-background.jpg</code></div>
+          <span class="photo-note">a memory to keep ♡</span>
+        </div>
+        <div class="hero-content">
+          <div class="hero-kicker reveal">A LITTLE WEBSITE, MADE JUST FOR YOU</div>
+          <h1 class="hero-title reveal">Happy birthday,<br><em>my favorite person.</em></h1>
+          <p class="hero-copy reveal">For all the little things that make you, you.<br>Today, this tiny corner of the internet is yours.</p>
+          <a class="scroll-cue reveal" href="#letter"><span class="scroll-line"></span>SCROLL TO OPEN YOUR SURPRISE</a>
+        </div>
+      </div>
+      <div class="hero-decor decor-one">✳</div><div class="hero-decor decor-two">♡</div>
+    </section>
+
+    <section class="letter section" id="letter">
+      <div class="section-label reveal">01 — A LETTER FOR YOU</div>
+      <div class="letter-card reveal">
+        <div class="letter-top"><span>to my favorite human</span><span>with love, always ♡</span></div>
+        <h2>Today is all about <em>you.</em></h2>
+        <p>Happy birthday, sayang. ♡</p>
+        <p>Di hari spesial Anin ini, Rafi cuma ingin Anin tahu betapa berharganya diri Anin. Semoga di umur Anin yang baru, Anin semakin dekat dengan hal-hal yang Anin impikan, dikelilingi orang-orang yang tulus, dan selalu punya alasan untuk tersenyum, bahkan di hari yang terasa berat.</p>
+        <p>Makasih ya sayang untuk setiap cerita, tawa, obrolan kecil, dan momen sederhana yang tanpa sadar jadi sesuatu yang berarti buat rafi. Kadang, hal-hal paling indah memang bukan sesuatu yang besar—melainkan kehadiran seseorang yang bisa membuat hari biasa terasa lebih istimewa.</p>
+        <p>Rafi nggak bisa menjanjikan kalau setiap hari akan selalu mudah. Tapi Rafi berharap Anin selalu ingat bahwa Anin pantas mendapatkan hal-hal baik, pantas dicintai dengan tulus, dan pantas merasa bangga pada diri Anin sendiri. Jangan terlalu keras pada diri sendiri, ya sayaang. Pelan-pelan saja, Anin nggak harus menyelesaikan semuanya sekaligus.</p>
+        <p>Semoga tahun ini membawa lebih banyak kesempatan, ketenangan, kesehatan, keberanian, dan kebahagiaan yang sederhana tapi nyata. Semoga semua yang sedang Anin usahakan menemukan jalannya, dan kalau ada hari ketika Anin merasa lelah, Rafi akan selalu ada di dekat anin.</p>
+        <p>And above all, I hope life is gentle with you. You deserve a kind of happiness that feels peaceful, a love that feels safe, and memories that make you smile when you look back.</p>
+        <p class="letter-signoff">Enjoy your day, birthday girl. <span>♡</span></p>
+        <div class="letter-footer">made with a little extra love · just for you</div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="memories">
+      <div class="section-label reveal">02 — LITTLE MOMENTS, BIG FEELINGS</div>
+      <div class="gallery-heading reveal">
+        <h2>A few pieces<br>of <em>you.</em></h2>
+        <p>Some moments deserve a little place to stay.</p>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card photo-tall reveal">
+          <img src="assets/photo-1.jpg" alt="Foto kenangan pertama" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>♡</span><small>Tambahkan foto pertama</small><code>assets/photo-1.jpg</code></div>
+          <figcaption><span>01 / the way you shine</span><p>There's something special about the way you see the world.</p></figcaption>
+        </figure>
+        <figure class="photo-card photo-offset reveal">
+          <img src="assets/photo-2.jpg" alt="Foto kenangan kedua" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>♡</span><small>Tambahkan foto kedua</small><code>assets/photo-2.jpg</code></div>
+          <figcaption><span>02 / a favorite memory</span><p>A little moment I'd happily keep forever.</p></figcaption>
+        </figure>
+        <figure class="photo-card photo-small reveal">
+          <img src="assets/photo-3.jpg" alt="Foto kenangan ketiga" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>♡</span><small>Tambahkan foto ketiga</small><code>assets/photo-3.jpg</code></div>
+          <figcaption><span>03 / simply you</span><p>Never forget how lovely it is to be yourself.</p></figcaption>
+        </figure>
+        <figure class="photo-card photo-wide reveal">
+          <img src="assets/photo-4.jpg" alt="Foto kenangan keempat" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="photo-placeholder"><span>♡</span><small>Tambahkan foto keempat</small><code>assets/photo-4.jpg</code></div>
+          <figcaption><span>04 / one for the books</span><p>Here's to more days worth remembering.</p></figcaption>
+        </figure>
+      </div>
+      
+    </section>
+
+    <section class="wish section">
+      <div class="wish-star reveal">✳</div>
+      <div class="section-label reveal">03 — A WISH FOR YOUR NEW CHAPTER</div>
+      <h2 class="wish-title reveal">May this year be<br><em>kind to your heart.</em></h2>
+      <p class="wish-copy reveal">More reasons to laugh. More dreams coming true.<br>More quiet days that feel like everything is okay.</p>
+      <p class="wish-small reveal">And a thousand little things that remind you how loved you are.</p>
+    </section>
+
+    <section class="finale section" id="end">
+      <div class="finale-card reveal">
+        <span class="finale-heart">♡</span>
+        <p class="section-label">ONE LAST THING</p>
+        <h2>I'm really glad<br><em>you exist.</em></h2>
+        <p>Happy birthday, love. Here's to your next chapter—and all the lovely things waiting for you.</p>
+        <span class="finale-sign">always cheering for you ♡</span>
+      </div>
+      <footer>made for you, with love <span>♡</span></footer>
+    </section>
+  </main>
+
+  <audio id="bgMusic" src="assets/song.mp3" autoplay loop preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
